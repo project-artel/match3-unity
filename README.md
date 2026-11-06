@@ -19,7 +19,7 @@
 
 ## English
 
-A match-3 puzzle game I made in Unity 6 with C#. You swap neighbouring tiles to make lines of three or more and finish the level's goals before you run out of moves. There are eight levels.
+A match-3 puzzle game built in Unity with C#. You swap neighbouring tiles to make lines of three or more and finish the level's goals before you run out of moves. There are eight levels.
 
 - **Goals:** reach a score, collect tiles of a color, clear the ice, or break the boxes. Later levels mix them.
 - **Obstacles:** ice sits under a tile and cracks when that tile is cleared (some have two layers). Boxes take up a cell, block falling tiles, and break when you match next to them or hit them with a special tile (some need two hits).
@@ -58,7 +58,7 @@ The greedy bot doesn't plan ahead, so a person should do better on the last leve
 
 ### Run it
 
-You need Unity 6 (I used 6000.6.6f1). Add the folder in Unity Hub, open it and press Play. There's no scene to set up, the game starts itself from code. **Match3 → Build WebGL** in the menu makes the browser version.
+Use Unity 2022.3.62f3. Add the folder in Unity Hub, open it and press Play. There's no scene to set up, the game starts itself from code. **Match3 → Build WebGL** in the menu makes the browser version.
 
 Controls: drag a tile towards a neighbour, or click two neighbouring tiles.
 
@@ -70,7 +70,7 @@ Controls: drag a tile towards a neighbour, or click two neighbouring tiles.
 
 ## Türkçe
 
-Unity 6 ve C# ile yaptığım bir match-3 bulmaca oyunu. Yan yana taşları değiştirip üçlü ya da daha uzun sıralar yapıyorsun ve hamlelerin bitmeden level'ın hedeflerini tamamlaman gerekiyor. Sekiz level var.
+Unity ve C# ile yaptığım bir match-3 bulmaca oyunu. Yan yana taşları değiştirip üçlü ya da daha uzun sıralar yapıyorsun ve hamlelerin bitmeden level'ın hedeflerini tamamlaman gerekiyor. Sekiz level var.
 
 - **Hedefler:** skor yapmak, bir renkten taş toplamak, buzu temizlemek ya da kutuları kırmak. Sonraki level'lar bunları karıştırıyor.
 - **Engeller:** buz bir taşın altında duruyor ve o taş temizlenince çatlıyor (bazıları iki kat). Kutular bir hücreyi kaplıyor, düşen taşları durduruyor; yanında eşleşme yapınca ya da özel taşla vurunca kırılıyor (bazıları iki vuruş istiyor).
@@ -96,7 +96,7 @@ Hamle sayılarını küçük bir simülatörle (`Match3.LevelSim`) ayarladım. H
 
 ### Çalıştırma
 
-Unity 6 lazım (ben 6000.6.6f1 kullandım). Klasörü Unity Hub'da ekle, aç ve Play'e bas. Kurulacak sahne yok, oyun kendini koddan başlatıyor. Menüdeki **Match3 → Build WebGL** tarayıcı sürümünü çıkarıyor.
+Unity 2022.3.62f3 kullanın. Klasörü Unity Hub'da ekle, aç ve Play'e bas. Kurulacak sahne yok, oyun kendini koddan başlatıyor. Menüdeki **Match3 → Build WebGL** tarayıcı sürümünü çıkarıyor.
 
 Kontroller: taşı komşusuna doğru sürükle ya da yan yana iki taşa tıkla.
 
