@@ -25,6 +25,20 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.1.33",
       "depth": 0,
@@ -268,6 +282,38 @@
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.subsystems": "1.0.0"
       }
+    },
+    "com.unity.textmeshpro": {
+      "version": "3.0.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ugui": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "kr.artel.sdk": {
+      "version": "https://github.com/project-artel/artel-sdk.git?path=/Packages/kr.artel.sdk#a9a378b6d3003b448222dd5979b56f1366cbf9f5",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "hash": "a9a378b6d3003b448222dd5979b56f1366cbf9f5"
     }
   }
 }
